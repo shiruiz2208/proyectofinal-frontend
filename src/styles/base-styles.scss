@@ -1,0 +1,39 @@
+%center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+%flex {
+	display: flex;
+}
+
+%label-basic {
+	margin: 12px 0 6px;
+	padding-left: 4px;
+}
+
+%input-basic {
+	height: 100%;
+	padding: 10px;
+	font-size: $font-size;
+	font-family: inherit;
+	border: 2px solid $border-color;
+	border-radius: $border-radius;
+	outline-color: $color-black;
+}
+
+%button-basic {
+	text-align: center;
+	padding: 10px;
+	font-size: $font-size;
+	font-family: inherit;
+	border: none;
+	cursor: pointer;
+}
+
+%selected {
+	background: $primary-color;
+	color: $color-white;
+}

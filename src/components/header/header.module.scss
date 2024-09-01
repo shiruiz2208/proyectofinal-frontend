@@ -1,0 +1,57 @@
+.container {
+  height: 80px;
+  background-color: $primary-color;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .box1 {
+    h1 {
+      color: $color-white;
+      font-weight: bold;
+    }
+  }
+
+  .box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    a {
+      color: $color-white;
+    }
+  }
+
+  .box3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    a {
+      color: $color-white;
+      background-color: $color-black;
+      padding: 12px 15px;
+      border-radius: 15px;
+    }
+  }
+
+  .box4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    p {
+      color: $color-white;
+    }
+
+    .logout {
+      color: $color-white;
+      background-color: $color-black;
+      padding: 12px 15px;
+      border-radius: 15px;
+    }
+  }
+}
